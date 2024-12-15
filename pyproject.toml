@@ -9,7 +9,7 @@
 [tool.poetry]
 authors = ["acd1034 <48613285+acd1034@users.noreply.github.com>"]
 description = ""
-name = "sample"
+name = "standpoint"
 version = "0.1.0"
 
 [tool.poetry.dependencies]
@@ -18,7 +18,8 @@ ipympl = "^0.9.4"
 matplotlib = "^3.5.2"
 numpy = "^1.22.4"
 pandas = "^1.4.2"
-python = ">=3.12,<3.13"
+python = "^3.12"
+pytest = "^8.0.2"
 pyyaml = "^6.0.1"
 rich = "^13.7.1"
 scipy = "^1.8.1"
@@ -60,3 +61,6 @@ ignore = [
 # isort の設定
 # [tool.ruff.lint.isort]
 # known-third-party = ["fastapi", "pydantic", "starlette"]
+
+[tool.mypy]
+disallow_untyped_defs = true

@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from .sample import square
+from .standpoint import square
 
 if __name__ == "__main__":
     parser = ArgumentParser()

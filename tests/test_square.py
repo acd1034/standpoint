@@ -1,4 +1,4 @@
-from sample.sample import square
+from standpoint.standpoint import square
 
 
 def test_square():
